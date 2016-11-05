@@ -1,0 +1,100 @@
+html, body {
+	padding:0;
+	margin:0 auto;
+	width:1440px;
+	height:100%;
+	font-family: 'Lato', sans-serif;
+    background-image: url("img/v-card-filigrane.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 220px 300px;
+    color: #57555a;
+}
+
+.banner__left{
+    float: left;
+    height: 1225px;
+    width: 218px;
+}
+
+.content{
+    display: inline-block;
+    width: 720px;
+    margin: 60px;
+    margin-left: 135px;
+    margin-top: 15px;
+}
+
+.content p{
+    font-size: 20px;
+    line-height: 60px;
+    margin-bottom: 70px;
+}
+
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+
+.frijole{
+    font-family: 'Frijole', cursive;
+}
+.lato--italic{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+.lato--italic--black{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.lato--black{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #57555a;
+}
+
+.button__cv{
+    background-color: #a95250;
+    color: #fff;
+    width: 350px;
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.photo__pechemel{
+    position: absolute;
+    top: 1250px;
+}
+
+.photo__atschool{
+    float: right;
+    position: relative;
+}
+
+.photo__irl{
+    float: right;
+    position: relative;
+    top: -650px;
+}
+
+.social{
+    width: 370px;
+    margin: 0 auto;
+}
+.social img{
+    width: 70px;
+    margin: 10px;
+}
